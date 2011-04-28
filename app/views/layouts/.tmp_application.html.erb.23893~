@@ -1,0 +1,4 @@
+<%= render 'layouts/header' %>
+<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" /> 
+<%= yield %> 
+<%= render 'layouts/footer' %>

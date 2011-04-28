@@ -1,0 +1,101 @@
+
+
+
+html, body{
+  background: #d9e4ef  0 0 repeat-x;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 62.5%;
+}
+
+body {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  /*font-size: 1.2em;*/
+  font-size: 11px;
+  text-shadow: 0 0 0 #000;  
+}
+a {
+  color: #377fd1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1157a5;
+}
+
+ul, ol, dl, dt, dd {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6, form, fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+input, select, textarea, button {
+  /* font: normal 1em Arial, Helvetica, sans-serif; */
+  font: normal 11px Arial, Helvetica, sans-serif; 
+  /*border: none;*/
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.welcome {
+	padding-top: 100px;
+	font-size:25px;
+}
+.welcome h1 {
+	font-size: 30px
+}
+
+.clientinfo {
+	background: white;
+	height: 200px;
+	width: 300px;
+	padding-left: 20px;
+	text-align: center;
+	
+}
+.clientinfo h2 {
+	font-size: 15px
+}
+
+
+.clientdetail {
+	font-size: 15px
+}
+
+.therapistinfo {
+	background: white;
+	height: 200px;
+	width: 300px;
+	padding-left: 20px;
+	text-align: center;
+	
+}
+
+.therapistinfo h2 {
+	font-size: 15px
+}
+.therapistdetail {
+	font-size: 15px
+}
