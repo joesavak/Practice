@@ -1,4 +1,9 @@
 Practice::Application.routes.draw do
+  
+  resources :client_sessions
+
+  devise_for :therapists
+
   resources :therapists
 
   resources :clients

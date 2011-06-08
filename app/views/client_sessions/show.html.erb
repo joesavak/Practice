@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Client:</b>
+  <%= @client_session.client_id %>
+</p>
+
+<p>
+  <b>Therapist:</b>
+  <%= @client_session.therapist_id %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @client_session.notes %>
+</p>
+
+<p>
+  <b>Visit dt:</b>
+  <%= @client_session.visit_dt %>
+</p>
+
+
+<%= link_to 'Edit', edit_client_session_path(@client_session) %> |
+<%= link_to 'Back', client_sessions_path %>

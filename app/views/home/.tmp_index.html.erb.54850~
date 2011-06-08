@@ -33,7 +33,7 @@
 									<li class="therapistdetail"><h2><div id="billing">Billing</div></h2>
 								</ul>		
 								<br/>
-								<a href="/therapists/sign_up" id="register">Sign up for free!</a>										
+								<a href="" id="register">Sign up for free!</a>										
 					</td>
 				</tr>
 			</table>
